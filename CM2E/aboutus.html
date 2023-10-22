@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&family=Dela+Gothic+One&family=Gabarito:wght@400;500;900&family=Josefin+Sans:wght@700&family=Montserrat&family=Oxygen&family=Pacifico&family=Pixelify+Sans:wght@500&family=Prompt:wght@300;500;800;900&family=Roboto&family=Young+Serif&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>à propos de nous</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            overflow: hidden;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+        }
+        /* header style */
+        header{
+            width:90%;
+            margin: 10px 5%;
+            padding: 20px 20px;
+            display: flex;
+            align-items: baseline;
+            font-family: 'prompt';
+        }
+        header h1{
+            font-family:'gabarito';
+            font-weight: 900;
+            font-size: 30px;
+        }
+        header ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            position: absolute;
+            right:5%;
+        }
+        header ul li{
+            width: fit-content;
+            height: fit-content;
+            padding: 10px 10px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: 0.7s;
+            border-radius: 10px;
+        }
+        header ul li:hover{
+            background-color: #8d99ae85;
+        }
+        header ul li:last-child{
+            background-color: #8d99ae85;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            background:none;
+        }
+        main{
+            width: 90%;
+        }
+        main div{
+            width: 90%;
+            padding:5% 10%;
+            text-align: start;
+        }
+        .title{
+            font-family: 'Prompt';
+            font-size: 40px;
+            font-weight: 800;
+            width: 90%;
+        }
+        p{
+            width: 90%;
+            padding:2.5%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2{
+            font-family: 'Prompt';
+        }
+        @media (max-width:940px) {
+            header ul{
+                visibility: hidden;
+            }
+            header{
+                width: 90%;
+                padding: 20px 0px;
+                margin: 10px 2.5%;
+            }
+            header h1{
+                font-size: 20px;
+            }
+            .title{
+                font-size: 30px;
+            }
+        }
+        .notre-equip-image{
+            width: 90%;
+            height: 300px;
+            margin: 5%;
+            text-align: center;
+            position: relative;
+        }
+        .notre-equip-image img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80%;
+            height: 100%;
+            object-position: center;
+            object-fit: cover;
+        }
+        .formation-images{
+            width: 90%;
+            height: 300px;
+            margin:10px 0%;
+            position: relative;
+            flex-wrap: wrap;
+            align-items: start;
+            justify-content: center;
+            align-items: center;
+        }
+        .formation-images img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80%;
+            height: 100%;
+            margin: 5%;
+            object-position: center;
+            object-fit: cover;
+        }
+        footer{
+            width: 100%;
+            height: 300px;
+            background-color: #EDF2F4;
+            margin-top: 100px;
+            position: relative;
+        }
+        footer div{
+            width: 90%;
+            margin: 5%;
+            padding: 40px 0;
+        }
+        footer div p{
+            text-align: start;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding:10px 0;
+        }
+        footer div nav{
+            width: 100%;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        footer div nav img{
+            width: 30px;
+            height:30px;
+            margin: 0 10px;
+        }
+        .footernav{
+            width: 100%;
+            position:absolute;
+            bottom: 0;
+            background-color: #8D99AE;
+            text-align: center;
+            padding: 15px 0;
+            font-family: prompt;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+        <a href="index.html"><h1>CM2E Factory</h1></a>
+        <ul>
+            <li><a href="aboutus.html">À PROPOS</a></li>
+            <li>COMPÉTENCES</li>
+            <li>DEVIS</li>
+            <li>RECRUTEMENT</li>
+            <li>CONTACT</li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <h1 class="title">à propos de nous</h1>
+            <p>
+                <b>CM2E</b> est votre partenaire dans la conception et la réalisation de votre produit dans le domaine de la métrologie dimensionnelle.
+    
+                Nous vous proposons des prestations répondant aux exigences de la norme ISO 9001 : 2015, gage de nos engagements constants pour être toujours plus efficaces auprès de vous. Nous mettons tout en oeuvre pour vous fournir un service de haute qualité dans la prise en charge de vos besoins et de vos critères jusqu’à l’aboutissement complet de votre projet.
+                
+                Exigence, compétences et précision sont les 3 piliers de votre réussite.
+                
+                Basé en Tunisie, à Sidi Adbelhamid à Sousse dans un local industriel de 220 m2, CM2E met à votre disposition ses compétences, son savoir-faire, et toute son expertise industrielle pour vous accompagner dans le développement de vos produits de métrologie dimensionnelle.
+            </p>
+            <h2>notre équipe</h2>
+            <div class="notre-equip-image">
+                <img src="images/img6.jpg" alt="notre equip">
+            </div>
+            <h2>Des formation</h2>
+            <p>Formation le 08-05-2018 sur la machine optique sans contact '' Vision Falcon CNC''</p>
+            <div class="formation-images">
+                <img src="images/img7.jpg">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h2>CM2E</h2>
+            <p>
+                bienvenue dans notre entreprise CM2E vous pouvez nous contacter sur nos réseaux sociaux ou envoyer un email pour plus d'informations cliquez ici
+            </p>
+            <nav><img src="images/email.png"><img src="images/facebook.png"><img src="images/phone-call.png"></nav>
+        </div>
+        <nav class="footernav">Copyright © 2023; made by chahine</nav>
+    </footer>
+</body>
+</html>
